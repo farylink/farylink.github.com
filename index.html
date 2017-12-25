@@ -1,51 +1,250 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>深圳市华宇联科技有限公司</title>
+<!--meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--//meta tags ends here-->
+<!--booststrap-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" >
+ 
+<!--//booststrap end-->
 
-<!--CSS-->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap-light.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<!--/CSS-->
+<!-- font-awesome icons -->
+   <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-<!--JS-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/jquery.plugin.js"></script>
-<script src="js/jquery.countdown.js"></script>
-<script>
-$(function () {
-	$('#defaultCountdown').countdown({until: new Date(2018, 1-1, 1)}); 
-	//Replace above date with your own, to find out more visit http://keith-wood.name/countdown.html
-});
-</script>
-<!--/JS-->
-
+<!-- //font-awesome icons -->
+<!--stylesheets-->
+<link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+<!--//style sheet end here-->
+<link rel="stylesheet" href="css/lightbox.css">
+<link href="http://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400,500,600,700" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 </head>
+<body>    
 
-<body>
 
-<!--DARK OVERLAY-->
-<div class="overlay"></div>
-<!--/DARK OVERLAY-->
-
-<!--WRAP-->
-<div id="wrap">
-	<!--CONTAINER-->
-	<div class="container">
-		<img src="images/paperplane.png" alt="Paper Plane" class="image-align" />
-		<h1>
-			<span>网站开发人员<span class="yellow">很快就会回到地球！</span></span><br/>
-		</h1>
-		<p>新的网站即将上线，敬请期待。</p>
-		<div id="defaultCountdown"></div>
-		<br><br><br><br>
-		<p class="copyright">Produly designed by <a href="http://www.farylink.com" target="_blank">www.farylink.com</a></p>
+<!--header start here-->
+<div class="banner">
+		<div class="top-nav">
+	        <div class="container">
+			<div class="navbar-header">
+	   			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+                </button>
+              </div>
+	   			<div id="navbar" class="navbar-collapse collapse">
+	              <ul class="nav navbar-nav">
+	                  	<li><a href="index.html" class="active">主页</a></li>
+					  	<li><a href="#service"  class="scroll">服务</a></li>
+				   		<li><a href="#gallery"  class="scroll">产品</a></li>
+					  	<li><a href="#about"  class="scroll">关于</a></li>
+	              </ul>
+	            </div>
+              </div>
+			</div>
+				<div class="container">
+	<div class="w3layouts-text">
+					<h2>Wi-Fi智能球泡灯<span></span></h2>
+					<div class="border"></div>
+					<p>
+						支持手机远程控制，色彩调节，亮度控制，情景模式，定时开关
+						<br>
+					</p>
+					<!--<div class="w3-button">
+						<a href="#" data-toggle="modal" data-target="#myModal">More</a>
+					</div>-->
+					
+				</div>
+				</div>
+			</div>
+		<!-- features -->
+	<div class="services" id="service">
+		<div class="container">
+			<div class="features-w3l">
+			 <h3> 我们提供的服务</h3>
+				<div class="col-md-4 features-grids">
+					<span class="fa fa-heart-o" aria-hidden="true"></span>
+					
+					<p>无线 Wi-Fi 模组</p> 
+					<div class="border-line"></div>
+				</div>
+				<div class="col-md-4 features-grids features-grd-mdl1">
+					<span class="fa fa-money" aria-hidden="true"></span>
+					
+					<p>智能球泡灯、智能插座、开关面板</p> 
+					<div class="border-line"></div>
+				</div>
+				<div class="col-md-4 features-grids">
+					<span class="fa fa-paper-plane" aria-hidden="true"></span>
+					
+					<p> 无线智能产品定制方案</p> 
+					<div class="border-line"></div>
+				</div>
+				<div class="clerfix"> </div>
+			</div>
+		</div>
 	</div>
-	<!--/CONTAINER-->
+<!-- gallery -->
+<div id="gallery" class="gallery">
+	<div class="container">
+		<div class="gallery-info">
+			<h3 class="title">我们的产品</h3>
+			<br>
+			<div class="col-md-4 gallery-grids">
+				<a href="images/g1.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="images/g1.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grids">
+				<a href="images/g2.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="images/g2.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-4 gallery-grids">
+				<a href="images/g3.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="images/g3.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+
+			<div class="col-md-6 gallery-grids grid-mdl">
+				<a href="images/g4.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="images/g4.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="col-md-6 gallery-grids grid-mdl">
+				<a href="images/g5.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
+					<img src="images/g5.jpg" alt="" class="img-responsive zoom-img">
+				</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
 </div>
-<!--/WRAP-->
+</div>		
+	<!--//contact -->
+	<!-- about-top -->
+	<div class="about" id="about">
+		<!-- container -->
+		<div class="container">
+			<div class="about-info">
+				<h3>关于我们</h3>
+			</div>
+			<div class="about-top-grids">
+				<div class="col-md-8 about-top-grid">
+					<h4></h4>
+					<p>
+						深圳市华宇联科技有限公司致力于解决数据传输通信问题，长期专注于无线连接技术和智能硬件平台的研发，服务于物联网（IoT）领域，为客户提供源源不断的无线模组和相关解决方案，是一家集研发、生产和销售为一体的高新企业。
+					</p>
+				</div>
+				<br>
+				<div class="col-md-4 about-top-grid " >
+					<img src="images/m1.jpg" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+	</div>
+	<!-- //about-top -->
+<!-- Footer -->
+<div class="footer w3ls">
+	<div class="container">
+		<div class="footer-main">
+			<div class="footer-top">
+				<div class="col-md-3 ftr-grid fg1">
+					<h4> 深圳市华宇联科技有限公司</h4><br>
+				</div>
+				<!--<div class="col-md-3 ftr-grid fg1">
+					<h4>关于我们 </h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>-->
+				<div class="col-md-3 ftr-grid fg2 ">
+					<!--<h4> 联系我们</h4><br>-->
+					<div class="ftr-address">
+						<div class="local">
+							<span class="fa fa-map-marker" aria-hidden="true"></span>
+						</div>
+						<div class="ftr-text">
+							<p>中国广东省深圳市宝安区航城大道金泰国际工业园D栋7楼</p>
+						</div>
+						<div class="clearfix"> </div>
+						<div class="local">
+							<span class="fa fa-phone" aria-hidden="true"></span>
+						</div>
+						<div class="ftr-text">
+							<p>0755-xxxxxxxx</p>
+						</div>
+						<div class="clearfix"> </div>
+						<div class="local">
+							<span class="fa fa-envelope" aria-hidden="true"></span>
+						</div>
+						<div class="ftr-text">
+							<p><a href="mailto:info@example.com">support@farylink.com</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
+		</div>	
+ <footer>
+	<p>Copyright &copy; 2017.Farylink All rights reserved.</p>
+
+  </footer>
+<!-- Footer -->	
+					
+		<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+		<!-- //js -->
+
+<!--menu script-->
+	<script src="js/bootstrap.min.js"></script>	
+	<!-- gallery -->
+<script src="js/lightbox-plus-jquery.min.js"></script> 
+<!-- //gallery -->
+<!-- OnScroll-Number-Increase-JavaScript -->
+	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<!-- //OnScroll-Number-Increase-JavaScript -->
+	<!-- start-smoth-scrolling -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+					});
+				});
+			</script>
+		<!-- start-smoth-scrolling -->
+	
+		<!-- for-bottom-to-top smooth scrolling -->
+			<script type="text/javascript">
+				$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+					};
+				*/								
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!-- //for-bottom-to-top smooth scrolling -->
+		
+<!-- //js-scripts -->	
+
 
 </body>
-</html>
+</html>		
