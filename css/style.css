@@ -89,7 +89,7 @@ ul.nav.navbar-nav li a {
 	padding: 20px 0px;
 }
 ul.nav.navbar-nav li a:hover{
-    background-color:#051e28;
+    background-color:#095880;
 	color:#fff ;
 		transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -98,7 +98,7 @@ ul.nav.navbar-nav li a:hover{
 	-ms-transition:0.5s all;
 }
 ul.nav.navbar-nav li a.active {
-   background-color:#051e28 ;
+   background-color:#095880 ;
 	color:#fff ;
 }
 .w3-agile-logo {
